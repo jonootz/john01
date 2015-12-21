@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="458" MadCap:lastWidth="1488">
+    <head>
+    </head>
+    <body>
+        <h1 style="background-color: #d3d3d3;">Git Diagrams</h1>
+        <MadCap:slideshow MadCap:InfiniteLoop="True" MadCap:AutoDirection="next" MadCap:Pause="4000" MadCap:Mode="horizontal" MadCap:Speed="500">
+            <MadCap:slide>
+                <h2>Git File System vs Others (SVN, TFS, Perforce)</h2>
+                <p>
+                    <img src="../Images/GitFileSystem2.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
+                </p>
+                <div style="text-align: center;">
+                    <h3 style="text-align: left;">Git in a Nutshell</h3>
+                    <p style="text-align: left;">Git allows offline Source Control because it's repository is in the local project folder. Can be shared with other users with Remote Repositories.</p>
+                    <p style="text-align: left;">&#160;</p>
+                    <h3 style="text-align: left;">Differences with other SCMs</h3>
+                    <ul>
+                        <li style="text-align: left;">Git does not have the concept for <u style="font-style: italic;">Check Out</u>. With Git, just dirty file as it is not Ready Only. </li>
+                        <li style="text-align: left;">
+                            <b>Commit</b>: Is like a <i style="text-decoration: underline;">Check In</i>, but to Local Repository</li>
+                        <li style="text-align: left;">
+                            <b>Push</b>: Is like a <u style="font-style: italic;">Check In</u>, but to a Shared Remote Server*</li>
+                        <li style="text-align: left;">
+                            <b>Pull</b>: Is like <i style="text-decoration: underline;">Get Latest</i>, but from Shared Remote Server*</li>
+                        <li style="text-align: left;">
+                            <b>Synchronize</b>: Is a <b>Commit</b>, then a <b>Push</b>, then a <b>Pull</b></li>
+                    </ul>
+                </div>
+            </MadCap:slide>
+            <MadCap:slide>
+                <h2>Snapshots vs File Based</h2>
+                <p>
+                    <img src="../Images/GitFileSystem.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
+                </p>
+                <p style="text-align: left;">*Git stores snapshots of the whole file system, so when users <b>Push, Pull, or Sync</b> with a shared Repository ("Remote"), they push or pull the whole snapshot whereas with other SCMs, users <i style="text-decoration: underline;">Check In</i> file based changes to the shared Repository and only get the newest files changes with <i style="text-decoration: underline;">Get Latest</i>.</p>
+                <p style="text-align: left;">
+                    <b>Tip:</b> In case the shared Remote is corrupted, each local copy is essentially a backup, since they are all clones of it.</p>
+            </MadCap:slide>
+            <MadCap:slide>
+                <h2>Flare bypasses Staging (git add)</h2>
+                <p>
+                    <img src="../Images/GitFileSystem3.jpg" style="mc-thumbnail: popup;mc-thumbnail-max-height: 200px;" />
+                </p>
+                <p>Staging is an intermediate area, an index, where files can be reviewed before completing the commit.</p>
+                <p>Allows user to commit certain files without committing all of the other modified files in your working directory.</p>
+                <p>Helps user avoid committing two logically unrelated modifications to a file or files.</p>
+                <p>&#160;</p>
+                <p>
+                    <b style="font-style: italic;">However Flare allows the user to emulate this with our Commit dialogs, where you can select or deselect files.</b>
+                </p>
+                <p>&#160;</p>
+            </MadCap:slide>
+        </MadCap:slideshow>
+    </body>
+</html>

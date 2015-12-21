@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+    <ConditionTag Comment="" Name="2" BackgroundColor="Blue" />
+    <ConditionTag Comment="" Name="1" BackgroundColor="Red" />
+    <ConditionTag BackgroundColor="#008000" Name="3" Comment="" />
+    <ConditionTag BackgroundColor="#ffa500" Name="4" Comment="" />
+    <ConditionTag BackgroundColor="#8b008b" Name="5" Comment="" />
+    <ConditionTag BackgroundColor="#00bfff" Name="6" Comment="" />
+    <ConditionTag BackgroundColor="#00ff00" Name="7" Comment="" />
+    <ConditionTag BackgroundColor="#8b4513" Name="8" Comment="" />
+    <ConditionTag BackgroundColor="#ff00ff" Name="9" Comment="" />
+    <ConditionTag BackgroundColor="#2f4f4f" Name="10" Comment="" />
+    <ConditionTag BackgroundColor="#9acd32" Name="11" Comment="" />
+    <ConditionTag BackgroundColor="#fa8072" Name="12" Comment="" />
+    <ConditionTag BackgroundColor="#ff0000" Name="13" Comment="" />
+    <ConditionTag BackgroundColor="#0000ff" Name="A" Comment="" />
+    <ConditionTag BackgroundColor="#008000" Name="B" Comment="" />
+    <ConditionTag BackgroundColor="#ffa500" Name="C" Comment="" />
+</CatapultConditionTagSet>
